@@ -43,10 +43,10 @@ faite sans cet en-tête n'est pas notifiée.
 
 ## Prérequis
 
-- L'état de fin du **module 1** : dépôt [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhem-/clic-par-clic-integration-01-brancher-studio)
+- L'état de fin du **module 1** : dépôt [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhembon/clic-par-clic-integration-01-brancher-studio)
   (connexion MCP « Studio 3D », modèle « Studio 3D », groupe « Graphistes »).
 - Le studio 3D dans sa dernière version, déployé dans le même cluster qu'Open WebUI : dépôt
-  [clic-par-clic-studio3d-06-stockage-s3](https://github.com/guilhem-/clic-par-clic-studio3d-06-stockage-s3)
+  [clic-par-clic-studio3d-06-stockage-s3](https://github.com/guilhembon/clic-par-clic-studio3d-06-stockage-s3)
   (image `studio3d:5`, Redis, workers, stockage S3).
 - Open WebUI 0.11 (tourné sur 0.11.3) avec les canaux activés (Réglages d'administration › Général ›
   Canaux), un compte **administrateur** et son jeton.
@@ -120,9 +120,9 @@ nouvel essai dans 10 s » et le numéro reste dans Redis jusqu'à l'envoi.
 ## Série
 
 - Module précédent : **Brancher le studio 3D de l'organisation à Open WebUI** —
-  [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhem-/clic-par-clic-integration-01-brancher-studio).
+  [clic-par-clic-integration-01-brancher-studio](https://github.com/guilhembon/clic-par-clic-integration-01-brancher-studio).
 - Module suivant : **Un widget de suivi dans la conversation** —
-  [clic-par-clic-integration-03-widget-suivi](https://github.com/guilhem-/clic-par-clic-integration-03-widget-suivi).
+  [clic-par-clic-integration-03-widget-suivi](https://github.com/guilhembon/clic-par-clic-integration-03-widget-suivi).
 - Construire le studio : série « Créer un service d'IA compatible agentique : le studio 3D »
   (dépôts `clic-par-clic-studio3d-01` à `06`).
 
